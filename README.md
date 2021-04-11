@@ -2,6 +2,7 @@
 
 # Endpoints
 
+You can use this link to test : https://question-answer-api-restful.herokuapp.com/
 ## users
 
 ## questions
