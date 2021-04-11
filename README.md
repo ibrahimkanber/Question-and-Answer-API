@@ -2,6 +2,14 @@
 
 # Endpoints
 
+## users
+
+## questions
+
+## answers
+
+## authentication
+
 # Scenario:
 
 * In this Project you can access system with two roles:
