@@ -1,6 +1,6 @@
 # QUESTION-ANSWER-API
 
-![ProjectManagement2](https://user-images.githubusercontent.com/65809527/100575860-43b48f80-32dd-11eb-8609-110eb549a9a3.gif)
+![ProjectManagement2](https://user-images.githubusercontent.com/65809527/101241589-b9fb2c80-36f7-11eb-9767-21b21e73a674.gif)
 
 # Endpoints
 
