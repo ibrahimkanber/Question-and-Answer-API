@@ -6,6 +6,7 @@ You can use this base URL to test : https://question-answer-api-restful.herokuap
 * users
 
       baseURL/api/users ==>GET ==> response = all users
+      
       baseURL/api/users/:id ==>GET ==> response = single user info by id
        
 * questions
