@@ -3,13 +3,13 @@
 # Endpoints
 
 You can use this base URL to test : https://question-answer-api-restful.herokuapp.com/
-## users
+* users
 
-## questions
+* questions
 
-## answers
+* answers
 
-## authentication
+* authentication
 
 # Scenario:
 
