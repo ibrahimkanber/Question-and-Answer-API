@@ -11,12 +11,19 @@ You can use this base URL to test : https://question-answer-api-restful.herokuap
 * questions
 
       baseURL/api/questions/allquestions ==>GET ==> response = all questions
+      
       baseURL/api/questions/:id ==>GET ==> response = single user info by id
+      
       baseURL/api/questions/:id/like ==>GET ==> response = liked question info---you need access token for this operation!
+      
       baseURL/api/questions/:id/undolike ==>GET ==> response = question info---you need access token for this operation!
+      
       baseURL/api/questions/ask ==>POST ==> response = created question info---you need access token for this operation!
+      
       baseURL/api/questions/:id/edit ==>PUT ==> response = edited question info---you need access token for this operation!
+      
       baseURL/api/questions/:id/delete ==>DELETE ==> response = deleted question info---you need access token for this operation!
+      
       
 * answers
 
