@@ -4,7 +4,9 @@
 
 You can use this base URL to test : https://question-answer-api-restful.herokuapp.com/
 * users
-       baseURL/api/users---GET---getAllUsers
+
+      baseURL/api/users---GET---getAllUsers
+       
 * questions
 
 * answers
