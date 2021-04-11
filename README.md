@@ -3,6 +3,31 @@
 # Endpoints
 
 You can use this base URL to test : https://question-answer-api-restful.herokuapp.com/
+
+* authentication
+
+      baseURL/api/auth/register ==>POST ==> response = created user info
+      
+      baseURL/api/auth/login ==>POST ==> response = login info
+      
+      baseURL/api/auth/logout ==>POST ==> response = log out---you need access token for this operation!
+      
+      baseURL/api/auth/profile ==>GET ==> response = user profile---you need access token for this operation!
+      
+      baseURL/api/auth/forgotpassword ==>POST ==> response = success status ---you need access token for this operation!
+      
+      baseURL/api/auth/resetpassword ==>PUT ==> response = success status,token and password ---you need access token for this operation!
+      
+      baseURL/api/auth/resetpassword ==>PUT ==> response = success status,token and password ---you need access token for this operation!
+      
+      baseURL/api/auth/edit ==>PUT ==> response = edited profile info---you need access token for this operation!
+
+* admin
+
+      baseURL/api/admin/block/:id ==>GET ==> response = success status ---you need access token for this operation!
+      
+      baseURL/api/admin/user/:id ==>DELETE ==> response = success status ---you need access token for this operation!
+
 * users
 
       baseURL/api/users ==>GET ==> response = all users
@@ -28,7 +53,23 @@ You can use this base URL to test : https://question-answer-api-restful.herokuap
       
 * answers
 
-* authentication
+      baseURL/api/questions/:id/answers==>GET ==> response = all answers by question id
+      
+      baseURL/api/questions/:id/answers==>POST ==> response = add new answer to selected question ---you need access token for this operation!
+      
+      baseURL/api/questions/:id/answers/:answer_id ==>GET ==> response = get single answer
+      
+      baseURL/api/questions/:id/answers/:answer_id/edit  ==>PUT ==> response = edited answer info---you need access token for this operation!
+      
+      baseURL/api/questions/:id/answers/:answer_id/like  ==>GET ==> response = liked answer info---you need access token for this operation!
+      
+      baseURL/api/questions/:id/answers/:answer_id/undolike  ==>GET ==> response =  answer info---you need access token for this operation!
+      
+      baseURL/api/questions/:id/answers/:answer_id/delete  ==>DELETE ==> response =   deleted answer info---you need access token for this operation!
+      
+
+
+      
 
 # Scenario:
 
