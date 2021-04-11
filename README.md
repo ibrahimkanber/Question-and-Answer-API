@@ -4,10 +4,20 @@
 
 You can use this base URL to test : https://question-answer-api-restful.herokuapp.com/
 * users
-      baseURL/api/users---GET---getAllUsers
+
+      baseURL/api/users ==>GET ==> response = all users
+      baseURL/api/users/:id ==>GET ==> response = single user info by id
        
 * questions
 
+      baseURL/api/questions/allquestions ==>GET ==> response = all questions
+      baseURL/api/questions/:id ==>GET ==> response = single user info by id
+      baseURL/api/questions/:id/like ==>GET ==> response = liked question info---you need access token for this operation!
+      baseURL/api/questions/:id/undolike ==>GET ==> response = question info---you need access token for this operation!
+      baseURL/api/questions/ask ==>POST ==> response = created question info---you need access token for this operation!
+      baseURL/api/questions/:id/edit ==>PUT ==> response = edited question info---you need access token for this operation!
+      baseURL/api/questions/:id/delete ==>DELETE ==> response = deleted question info---you need access token for this operation!
+      
 * answers
 
 * authentication
