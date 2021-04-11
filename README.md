@@ -2,7 +2,7 @@
 
 # Endpoints
 
-You can use this link to test : https://question-answer-api-restful.herokuapp.com/
+You can use this base URL to test : https://question-answer-api-restful.herokuapp.com/
 ## users
 
 ## questions
