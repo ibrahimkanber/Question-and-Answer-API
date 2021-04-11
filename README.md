@@ -1,0 +1,43 @@
+# QUESTION-ANSWER-API
+
+# Scenario:
+
+* In this Project you can access system with two roles:
+
+     **Admin**
+ 
+     **User**
+ 
+ * As user you can:
+
+ - ask Question
+ 
+ - answer Question
+ 
+ - get all Question by any user
+ 
+ - get single Question/Answer
+ 
+ - upload Profıle Image
+ 
+ - reset your Password
+ 
+ * In addition to users, admin has the following rights:
+ 
+  -blocking a user
+  
+  -deleting a user
+  
+ 
+
+# Development Strategie:
+
+* In this Project i have built Question-Answer RESTFUL API with Express.js
+
+* I used mongo db as database
+
+* For mail services i have used nodemailer
+
+
+
+
