@@ -51,7 +51,7 @@ const logout=asyncErrorWrapper(async(req,res,next)=>{
     .cookie({
         httpOnly:true,
         expires:new Date(Date.now()),
-        secure:false
+        secure:NODE_ENV==="development" ? false :true
     })
     .json({
         success: true,
