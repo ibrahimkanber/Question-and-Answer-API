@@ -9,7 +9,7 @@ const sendJwtToClient=(user,response)=>{
     .cookie("access_token",token,{
         httpOnly:true,
         exprires:new Date(Date.now()+parseInt(JWT_COOKIE)*1000*60),
-        secure:false
+        secure:NODE_ENV==="development" ? false :true
     })
     .json({
         success:true,
